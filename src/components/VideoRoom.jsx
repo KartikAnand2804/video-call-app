@@ -3,7 +3,7 @@ import AgoraRTC, { createClient } from 'agora-rtc-sdk-ng';
 import { VideoPlayer } from './VideoPlayer';
 
 const APP_ID = '083091516ba442d9a22f3ab63081f11e';
-const TOKEN = '007eJxTYCgQNE8sfOHPLac0t/fLoreJuqKcthI7zM+wKvaePbH1or8Cg4GFsYGloamhWVKiiYlRimWikVGacWKSmbGBhWGaoWFqHldlckMgI4ON+hYmRgYIBPF5GMoyU1LzkxNzchILChgYAENFHwM=/5XJDcEMjK8VZRkYIRCEJ+HoSwzJTU/OTEnJ7GggIEBAMvHIM4=';
+const TOKEN = '007eJxTYJjM7D3V6wZn2ZJGg71X5a89Ndi/KbzvjUyNH8OuuSVMFyYqMBhYGBtYGpoamiUlmpgYpVgmGhmlGScmmRkbWBimGRqm+oZVJTcEMjK4HJ/BwAiFID4PQ1lmSmp+cmJOTmJBAQMDAAmnIYU=';
 const CHANNEL = 'videocallapp';
 
 AgoraRTC.setLogLevel(4);
@@ -137,7 +137,6 @@ export const VideoRoom = () => {
         style={{
           display: 'flex',
           justifyContent: 'center',
-          padding
         }}
       >
         <div
